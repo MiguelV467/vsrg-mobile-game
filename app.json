@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "VSRG Mobile Game",
+    "slug": "vsrg-mobile-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.miguelv467.vsrgmobilegame"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.miguelv467.vsrgmobilegame"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
